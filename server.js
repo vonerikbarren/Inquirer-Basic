@@ -1,5 +1,5 @@
 var fs = require("fs");
-var inq = require("inquirer");
+var inquirer = require("inquirer");
 
 // Create a "Prompt" with a series of questions.
 inquirer
