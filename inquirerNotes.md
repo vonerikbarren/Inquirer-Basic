@@ -43,7 +43,27 @@ inquirer
       message: "What is your first name?",
       name: "FirstName"
     },
- // Prompt Type: Basic Text Prompt
+    // Prompt Type: Password Prompt
+    {
+      type: "password",
+      message: "Set your Password...",
+      name: "password"
+    },
+     // Prompt Type: List Prompt
+    {
+      type: "list",
+      message: "Which Pokemon Do you Choose?",
+      choices: ["Pikachu", "Charmander", "Squirtle", "Bulbasaur"],
+      name: "Pokemon Choice"
+    },
+     // Prompt Type: rawlist Prompt
+    {
+      type: "rawlist",
+      message: "What size Pizza do you desire?",
+      chocies: ["Jumbo", "Large", "Standard", "Medium", "Small", "Micro"],
+      name: "FirstName"
+    },
+     // Prompt Type: Basic Text Prompt
     {
       type: "input",
       message: "What is your first name?",
